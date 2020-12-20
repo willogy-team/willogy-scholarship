@@ -1,0 +1,53 @@
+html,
+body {
+   margin:0;
+   padding:0;
+   height:100%;
+}
+
+body {
+    background-color: #ffffff;
+    font-family: 'Lato', sans-serif;
+    font-size: 20px;
+    color: rgb(53, 53, 53)
+}
+
+button {
+    background-color: #ffffff;
+    border-color: rgb(53, 53, 53);
+    color: rgb(53, 53, 53);
+}
+
+button:hover {
+    background-color: rgb(53, 53, 53);
+    color: #ffffff;
+}
+
+footer {
+    background-color: rgb(53, 53, 53);
+}
+
+.transparent-navbar {
+    border-bottom: 1px solid #e0e0e0;
+    background-color: #ffffff;
+}
+
+.highlight--underline {
+    position: relative;
+    font-size: 1.2em;
+}
+
+.highlight--underline::after {
+    content: "";
+    position: absolute;
+    bottom: 0.2em;
+    left: 0;
+    right: 0;
+    top: calc(100% - 0.4em);
+    background: #ffe4c1;
+    z-index: -1;
+}
+
+.sub-header {
+  color: #7d7d7d;
+}
