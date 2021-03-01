@@ -55,3 +55,30 @@ footer {
 #founder_message {
   font-family: 'Overlock', cursive;
 }
+
+.result-table { 
+  border-collapse: collapse;
+  margin:0 auto !important;
+}
+
+.result-table td, .result-table th {
+  border: 1px solid #7d7d7d;
+  padding: 8px;
+}
+
+.result-table th {
+  font-weight: normal;
+}
+
+@media screen and (max-width:640px)
+{
+  tr, th {
+      display:block;
+  }
+
+  th:nth-of-type(1):before { content: "#"; }
+  th:nth-of-type(2):before { content: "Name: "; }
+  th:nth-of-type(3):before { content: "Student ID: "; }
+  th:nth-of-type(4):before { content: "Final Result: "; }
+  th:nth-of-type(5):before { content: "University: "; }
+}
